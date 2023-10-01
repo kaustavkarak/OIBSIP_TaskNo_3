@@ -1,0 +1,128 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  background-image: url("/img/bg.png");
+  width: 100%;
+  height: 100vh;
+}
+
+.container {
+  /* margin-top: 50px; */
+  width: 600px;
+  height: 600px;
+  margin: 150px auto;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+  text-align: center;
+}
+
+.container h2 {
+  font-size: 30px;
+}
+
+input[type="number"] {
+  width: 100px;
+  padding: 5px;
+  font-size: 16px;
+}
+
+.input-part {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  border-radius: 5px;
+}
+
+.input-itmes {
+  margin: 10px 10px;
+  padding: 8px 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  color: rgb(230, 45, 45);
+  background-color: #ecfe95;
+  font-size: 17px;
+}
+
+.input-itmes:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.input-itmes option {
+  background-color: #f8ee2c;
+  color: #000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  width: 150px;
+  height: 30px;
+}
+
+#unitFrom {
+  width: 110px;
+  border-radius: 5px;
+}
+
+select {
+  padding: 5px;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 20px;
+  margin: 20px 10px;
+  font-size: 18px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.reset-btn {
+  background-color: #dc3545; /* Red color for reset button */
+}
+
+.reset-btn:hover {
+  background-color: #c82333; /* Darker shade of red on hover */
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  /* border: 2px solid #007bff; Add a border around the result */
+  padding: 10px; /* Add some padding */
+  border-radius: 10px; /* Add rounded corners */
+  /* background-color: #f8f8f8; Add a light background color */
+  width: 300px; /* Set a specific width */
+  margin-left: auto; /* Center the result */
+  margin-right: auto; /* Center the result */
+  max-width: 80%; /* Set a maximum width */
+}
+
+.hide {
+  display: none;
+}
