@@ -3,12 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Custom CSS file -->
     <link rel="stylesheet" href="css/style.css" />
     <title>Temperature Converter</title>
   </head>
   <body>
     <div class="container">
       <h2><span>Temperature</span> Converter</h2>
+      <!-- Temperature Input -->
       <div class="input-part">
         <input
           type="number"
@@ -16,6 +18,7 @@
           id="inputTemperature"
           placeholder="Enter temperature"
         />
+        <!-- Unit Dropdown -->
         <select id="unitFrom" class="input-itmes">
           <option value="" disabled selected>Unit</option>
           <option value="celsius">Celsius</option>
@@ -23,16 +26,20 @@
           <option value="kelvin">Kelvin</option>
         </select>
       </div>
+      <!-- Convert Button -->
       <button class="btn" onclick="convertTemperature()">Convert</button>
+      <!-- Reset Button -->
       <input
         type="reset"
         onclick="resetAll()"
         value="Reset"
         class="btn reset-btn"
       />
+      <!-- Result Box -->
       <div id="result"></div>
     </div>
   </body>
 
+  <!-- Custom JavaScript file -->
   <script src="js/script.js"></script>
 </html>

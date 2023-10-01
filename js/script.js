@@ -1,3 +1,4 @@
+// Convert Button
 function convertTemperature() {
   const inputTemperature = parseFloat(
     document.getElementById("inputTemperature").value
@@ -31,6 +32,7 @@ function convertTemperature() {
   }
 }
 
+// Reset Button
 function resetAll() {
   document.getElementById("inputTemperature").value = "";
   document.getElementById("unitFrom").value = "celsius";
